@@ -1,0 +1,327 @@
+/* Header css */
+
+.logo-xl{
+    display: flex;
+    height: 13vh;
+    padding-top:10px;
+    color:#fff;
+    padding-bottom: 70px;
+  }
+
+  .abc-logo{
+      margin-left:4px;
+      font-size: 28px;
+      
+  }
+  .abc-logo img{
+    width: 280px;
+  }
+  .hrc-logo{
+      margin-left: 280px;
+  }
+  .hrc-logo img{
+    width: 200px;
+   
+  }
+  .invoiceList{
+    color:#fff;
+    font-size: 22px;
+    padding:5px;
+    font-weight: 400;
+
+  }
+  .btn-action-ctrl{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      align-items: center;
+      padding:25px 20px 0 20px;
+      background-color: #283d4a;
+  }
+  .btn-gr-1 button,
+  .btn-gr-2 button{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .btn-gr-2 button{
+      padding:3px 55px;
+  }
+  .btn-gr-1 button:nth-child(1){
+      padding:3px 40px;
+  }
+  .btn-gr-1 button:hover,
+  .btn-gr-1 button:focus,
+  .btn-gr-2 button:hover,
+  .btn-gr-2 button:focus{
+    background: #29b6f6;
+    
+  }
+.search-action input{
+    position: relative;
+    color:#000;
+    background-color: #fff;
+    border-radius: 11px;
+
+}
+.search-action{
+    margin-right: -3%;
+}
+ 
+  /* Header css END */
+
+
+  /* Modals Start */
+
+  .modalbox .modalHead{
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    }
+    .modalbox div{
+      background-color: transparent;
+      margin: 5px 4px;
+    }
+    .modalbox{
+      display: flex;
+      flex-wrap: wrap; 
+      flex-direction: column;
+    }
+    .modalbox input{
+      color: #000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      width: 254px;
+    }
+  
+    .modalbox .modal-btn-actions{
+      margin-bottom:-5px;
+    }
+   
+  .ModalDeleteHead{
+    font-size: 19px;
+    color:#fff;
+    font-weight: 500;
+    padding:15px;
+  }
+    .modal-body .text-confirm{
+      color:#fff;
+      font-size: 15px;
+      display: block;
+      margin:15px;
+      font-weight:500;
+    }
+
+    /* .modal-body.chart .barChart, */
+    .modal-body.chart .pieChart{
+      width: 100%;
+      height: 70vh;
+      /* background-color: red; */
+    }
+  
+   
+    .modal-btn-actions{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .modal-btn-actions button{
+      width: 49.5%;
+      margin: 10px 5px;
+      padding:4px 12px;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+    .modal-btn-actions button:hover{
+     color:#1976d2;
+    }
+    .modal-btn-actions button:nth-child(1){
+      margin-right:10px;
+    }
+
+  .Modal-inputs{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Modal-inputs input{
+    border-radius: 10px;
+    width:100%;
+    padding-right:20px ;
+  
+  }
+  
+  .modal-body input{
+    background-color: #fff;
+  }
+ 
+  .txt-gr-1, .txt-gr-2{
+    display: block;
+    margin: 12px;
+  }
+  .modalEditHead{
+    color:#fff;
+    font-size: 20px;
+  }
+  .ModalAdvanceHead{
+    color:#fff;
+    font-size: 20px;
+    padding:10px;
+    margin-bottom: 20px;
+  }
+ .modalAddHead{
+   color:#fff;
+   font-size:20px;
+   padding:10px;
+    font-weight: 500;
+ }
+
+ .modalAnalyticHead{
+   color:#fff;
+   font-size:18px;
+   padding:5px;
+    font-weight: 400;
+    padding-bottom: 60px;
+ }
+
+ .data-field{
+  width: 48%;
+  display: inline-grid;
+ }
+ .data-field h4{
+   color:#fff;
+ }
+   /* Modals END */
+  
+ 
+  /* Footer  START */
+  .footer-body{
+    margin-top: -15px;
+  }
+  
+  .footer-text{
+    background-color: #283d4a;
+    padding:20px 0 ;
+    color: #fff;
+    margin-top:6px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .footer-text a{
+    text-decoration: none;
+    color:#29b6f6;
+  }
+  
+  .footer-text a:hover{
+    text-decoration: underline;
+  }
+
+
+
+  /* Footer  END */
+
+  /* HARD CODE */
+  .css-9lj7dn-MuiTableCell-root {
+    /* padding-right: 12px !important; */
+    text-align: center !important;
+  }
+  
+  .Mui-active,.Mui-active svg{
+    color:#fff !important;
+  }
+  
+  .Mui-active .MuiTableSortLabel-icon {
+    opacity: 1 !important;
+  }
+  
+
+
+  /* RESPONSIVE UI */
+  @media (max-width: 600px) {
+    .logo-xl{
+      height: 0;
+      padding-bottom: 85px;
+    }
+
+    .abc-logo{
+      width: 44%;
+    }
+  
+  .hrc-logo {
+    margin-left: 149px;
+}
+  .btn-gr-1 {
+   display: flex;
+   padding-bottom:8px;
+   justify-content: center;
+  }
+  .btn-action-ctrl{
+    display:block;
+    background-color: #283d4a;
+    width: 147%;
+    padding: 30px;
+  }
+  .footer-text{
+    width: 147%;
+  }
+  .search-action{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+  }
+  .search-action input{
+    padding-right:80px;
+  }
+
+  .css-rorn0c-MuiTableContainer-root {
+    width: 147% !important;
+    overflow-x: auto !important;
+}
+
+.css-1hk0ets-MuiTablePagination-root {
+  width: 147% !important;
+}
+
+.add.modal-body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.css-1iosmjz{
+  width:70% !important ;
+}
+.css-qqk50p{
+  width:90% !important;
+}
+.data-field {
+  width: 98%;
+  display: inline-grid;
+}
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add{
+  overflow-y: scroll;
+  height: 100vh;
+}
+.css-1n5ck7i{
+  width:77% !important;
+  height:66vh !important;
+}
+.css-qqk50p{
+  height: 26vh !important;
+}
+.css-sox5kk-MuiBackdrop-root{
+  background-color: rgba(0, 0, 0, 0.886) !important;
+}
+
+}
+  /* RESPONSIVE UI */
